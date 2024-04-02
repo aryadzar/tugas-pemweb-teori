@@ -12,5 +12,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_FILES["gambar"])) {
     } else {
         echo "Maaf, terjadi kesalahan saat mengunggah gambar.";
     }
+    
 }
 ?>
